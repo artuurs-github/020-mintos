@@ -1,0 +1,58 @@
+.currency-button {
+  display: flex;
+  align-items: center;
+  min-width: 75px;
+  padding: 0px;
+  border: 1px solid rgb(163, 163, 163);
+  background: rgb(236, 236, 236);
+
+  &:hover {
+    cursor: pointer;
+    background: rgb(221, 221, 221);
+  }
+}
+
+.currency-button--active {
+  background: rgb(255, 255, 255);
+  
+  &:hover {
+    cursor: pointer;
+    background: none;
+  }
+}
+
+.currency-button__checkbox {
+  display: none; // ! ...as a temporary solution for checkbox bugfix.
+  cursor: pointer;
+  opacity: 0.5;
+  position: absolute;
+}
+
+.currency-button__label {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  color: rgb(16, 67, 114);
+}
+
+.currency-button__label::before {
+  content: '';
+  width: 12px;
+  height: 12px;
+  margin-right: 4px;
+  margin-left: 4px;
+
+  border: 1px solid rgb(163, 163, 163);
+  border-radius: 3px;
+  
+}
+
+.currency-button__checkbox:checked + .currency-button__label::before {
+  content: '✖';
+  font-size: 12px;
+  color: red;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

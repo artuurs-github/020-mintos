@@ -1,0 +1,38 @@
+.currency-label {
+  display: flex;
+  justify-content: center;
+  min-width: 75px;
+  padding: 3px 0px;
+  border: 1px solid rgb(236, 236, 236);
+  background: rgb(236, 236, 236);
+  position: relative;
+}
+
+.currency-label__text {
+  font-size: 14px;
+}
+
+.currency-label__button {
+  position: absolute;
+  top: -8px;
+  right: -7px;
+  padding: 0px;
+  width: 15px;
+  height: 15px;
+  color: transparent;
+
+  background-color: white;
+  background-image: url('./button-close-black.svg');
+  background-position: center;
+  background-size: 15px;
+  
+  border: 2px solid white;
+  border-radius: 15px;
+
+  &:hover {
+    cursor: pointer;
+    background-image: url('./button-close-white.svg');
+    background-size: 18px;
+    border: none;
+  }
+}
