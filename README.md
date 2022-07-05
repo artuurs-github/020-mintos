@@ -10,10 +10,6 @@ This small project was an attempt to create from scratch a simple currency selec
 
 Made with React.js.
 
-<br />
-<br />
-<br />
-
 ## Additional notes
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
