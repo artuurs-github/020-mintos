@@ -1,6 +1,24 @@
-# Getting Started with Create React App
+# react-currency-selector
+
+## Project link
+```
+artuurs-github-react-currency-selector.netlify.app
+```
+
+## Project description
+This small project was an attempt to create from scratch a simple currency selector component that could be used, e.g., as a modal/ modal window/ lightbox in an app.
+
+Made in React.js.
+
+<br />
+<br />
+<br />
+
+## Additional notes
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+Attributions: favicon by <a href="https://www.flaticon.com/free-icons/euro" title="euro icons">Freepik - Flaticon (Euro icons collection)</a>.
 
 ## Available Scripts
 
