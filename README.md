@@ -8,7 +8,7 @@ artuurs-github-react-currency-selector.netlify.app
 ## Project description
 This small project was an attempt to create from scratch a simple currency selector component that could be used, e.g., as a modal/ modal window/ lightbox in an app.
 
-Made in React.js.
+Made with React.js.
 
 <br />
 <br />
